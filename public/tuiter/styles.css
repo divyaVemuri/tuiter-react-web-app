@@ -1,0 +1,72 @@
+@import "../style.css";
+
+.wd-background-color{
+    background-color: black
+}
+
+.wd-border {
+  border-top: 1px solid ;
+  border-color: rgb(47,51,54)
+}
+
+.wd-no-margin{
+    margin:0px}
+
+.wd-left-padding-16px{
+    padding-left:16px
+}
+
+.wd-top-padding-12px{
+    padding-top:12px
+}
+
+.wd-bottom-padding-12px{
+    padding-bottom:12px
+}
+
+.wd-left-padding-12px{
+    padding-bottom:12px
+}
+
+.wd-right-padding-12px{
+    padding-bottom:12px
+}
+
+.wd-padding-all-12px{
+    padding-bottom:12px;
+    padding-top:12px;
+    padding-left:12px;
+    padding-right:12px
+}
+
+.wd-text-color-white{
+    color:white
+    }
+
+.wd-text-color-grey{
+    color:grey
+    }
+
+.wd-color-red{
+    color:red
+    }
+
+.wd-text-font-20px{
+    font-size:20px
+   }
+
+.wd-text-font-13px{
+    font-size:13px
+   }
+
+.wd-class-left-float{
+    float:left
+}
+
+.wd-class-right-float{
+     float:right
+ }
+
+ .wd-class-top-float{
+      float:top
+  }
