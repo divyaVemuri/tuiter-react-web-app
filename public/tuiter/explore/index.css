@@ -1,112 +1,58 @@
 @import "../styles.css";
 
-
-.wd-border{
-    border-color: rgb(47, 51, 54);
+.wd-rounded-edges-all{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     }
 
-.wd-padding-left {
-  padding: 16px;
-}
+.wd-no-border{
+    border-width: 0px;
+    }
 
-.wd-class-a{
-    background-color: rgb(67,70,75,0.5);
-    color:white
-}
-
-.wd-solid {
-  border-top: 0.1px solid #bbb;
-}
-
-.wd-rounded-corners-all-around {
- border-radius: 50px;
- width: 100%;
- border-width: 0px;
-}
-
-.wd-class-a-padding{
+.wd-padding-all-5px{
     padding-top:5px;
     padding-left:5px;
     padding-bottom:5px;
+    padding-right:5px;
+    }
+
+.wd-flex{
+      display:flex;
+      }
+
+.wd-color-blue{
+    color: rgb(29,161,242)}
+
+.wd-color-link{
+    color:rgb(110, 118, 125)}
+
+.wd-no-decoration{
+    text-decoration:none
 }
 
-.wd-class-b{
-    width:100%;
-    font-size:15px;
-    padding-top:16px;
-    padding-bottom:16px;
-    padding-left:16px;
-}
-
-.wb-class-b-border{
-    padding-top:16px;
-    padding-bottom:16px;
-    padding-right:16px;
-
-}
-
-.wd-class-b-selected{
-    color: rgb(29,161,242);
+.wd-bottom-padding-highlight{
     border-bottom-style:solid;
-    border-color:rgb(29,161,242);
-}
+    border-color:rgb(29,161,242);}
 
-.wd-class-b-not-selected{
-    color: rgb(110,118,125)
-}
+.wd-font-size-15px{
+    font-size:15px}
 
-.wd-class-c{
-    width:100%;
-    padding-bottom:16px;
-}
+.wd-font-size-25px{
+    font-size:25px}
 
-.wd-class-c-p-1{
-    color: rgb(110,118,125);
-    font-size:13px;
-    padding-bottom:0px;
-
-}
-.wd-class-c-p-2{
-    font-weight:bold;
-    color:white;
-    padding-bottom:0px;
-}
-
-.wd-class-d{
-    width:100%;
-    padding-bottom:16px;
-    padding-right:16px;
-    display:flex;
-    display:inline-block
-
-}
-
-.wd-class-d-p-1{
-    color: rgb(110,118,125);
-    font-size:13px;
-    padding-bottom:0px;
-}
-
-
-.wd-class-d-p-2{
-    font-weight:bold;
-    color:white;
-    padding-bottom:0px;
-    float:left
-
-}
-
-.wd-image-position-right{
-padding-left : 200px;
-}
-
-.float-right {
-   float: right;
-   height: 100px;
-}
+.wd-font-size-12px{
+    font-size:12px}
 
 .wd-image-rounded-border{
 border-radius: 25px;
+}
+
+.wd-image-dim{
 height:100px;
-width:100px;
+width:100px;}
+
+.wd-justify-content{
+justify-content: space-between;
 }

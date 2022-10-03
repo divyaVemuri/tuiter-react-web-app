@@ -4,6 +4,12 @@
     background-color: black
 }
 
+.wd-width-full{
+    width:100%}
+
+.wd-background-color-dark-grey{
+    background-color: rgb(67,70,75,0.5);
+}
 .wd-border {
   border-top: 1px solid ;
   border-color: rgb(47,51,54)
@@ -11,6 +17,13 @@
 
 .wd-no-margin{
     margin:0px}
+
+.wd-no-padding{
+    padding:0px}
+
+.wd-padding-left-20px{
+    padding-left:20px
+}
 
 .wd-left-padding-16px{
     padding-left:16px
@@ -22,6 +35,10 @@
 
 .wd-bottom-padding-12px{
     padding-bottom:12px
+}
+
+.wd-bottom-padding-5px{
+    padding-bottom:5px
 }
 
 .wd-left-padding-12px{
@@ -39,9 +56,17 @@
     padding-right:12px
 }
 
+.wd-padding-all-16px{
+    padding-bottom:16px;
+    padding-top:16px;
+    padding-left:16px;
+    padding-right:16px
+}
+
 .wd-text-color-white{
     color:white
     }
+
 
 .wd-text-color-grey{
     color:grey
@@ -49,6 +74,10 @@
 
 .wd-color-red{
     color:red
+    }
+
+.wd-color-blue{
+    color:blue
     }
 
 .wd-text-font-20px{
@@ -70,3 +99,8 @@
  .wd-class-top-float{
       float:top
   }
+
+  .wd-display-flex{
+      display:flex;
+      justify-content: space-between;
+      }

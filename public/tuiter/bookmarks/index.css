@@ -21,7 +21,6 @@
     }
 
 .wd-inline-block{
-    display:flex;
     display:inline-block
     }
 
@@ -51,4 +50,16 @@
   border: 1px solid;
   border-color: rgb(47,51,54);
 }
+
+
+.wd-align{
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1
+}
+
+.wd-color-transparent{
+    color:#ffffff00}
+
 
