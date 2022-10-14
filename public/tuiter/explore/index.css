@@ -61,3 +61,32 @@ width:48px;}
 .wd-justify-content{
 justify-content: space-between;
 }
+
+.nav-tabs .nav-item .nav-link.active {
+   color: white;
+   border-bottom-style:solid;
+   border-top-style:none;
+   border-left-style:none;
+   border-right-style:none;
+   border-color:rgb(0,0,255);
+   border-width:3
+ }
+
+ .nav-tabs .nav-item .nav-link{
+
+    color:rgb(255,255,255, 0.5);
+    border-bottom-style:none;
+
+  }
+
+.wd-tile{
+    border-width:1;
+    border-style:solid;
+    border-color:rgb(225,255,255, 0.1);
+}
+
+  .border .override-border{
+    border-width:1;
+    border-style:solid;
+    border-color:rgb(225,255,255);
+  }
