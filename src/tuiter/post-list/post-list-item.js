@@ -19,24 +19,24 @@ const PostListItem = (
     }
 ) => {
     return (
-        <div className="d-flex wd-left-padding-16px wd-inline-block wd-top-padding-12px ">
+        <div className="border border-light d-flex wd-left-padding-16px wd-inline-block wd-top-padding-12px ">
             <div className="wd-inline-block wd-align">
                 <img className="wd-border-circle wd-inline-block wd-img-dim wd-class-top-float "
                      src={`../tuiter/images/${post.profilePic}`}/>
             </div>
             <div className="wd-left-padding-16px wd-inline-block wd-width wd-align">
                 <div>
-                    <p className="wd-text-color-white">{post.name} <span
+                    <p className="">{post.name} <span
                         className="wd-text-color-grey"> @{post.handle} - {post.time}</span>
                     </p>
                 </div>
                 <div>
-                    <p className="wd-text-color-white wd-text-font-15px wd-width-506px wd-bottom-padding-12px">
+                    <p className=" wd-text-font-15px wd-bottom-padding-12px">
                         {post.title}
                     </p>
                 </div>
                 <div>
-                    <img className="wd-img-size wd-rounded-edges-top" src={`../tuiter/images/${post.image}`}/>
+                    <img className=" wd-rounded-edges-top" src={`../tuiter/images/${post.image}`}/>
                 </div>
                 <div className="wd-border-all wd-rounded-edges-bottom wd-width">
                     <div className="wd-padding-all-12px">
@@ -50,21 +50,21 @@ const PostListItem = (
                     </div>
                 </div>
 
-                <div className="d-flex wd-display-flex wd-top-padding-12px">
+                <div className="d-flex wd-display-flex wd-top-padding-12px wd-bottom-padding-12px">
                     <div>
-                        <i className="fa fa-comment-alt"></i>
-                        {post.comments}
+                        <i className="bi bi-chat pe-2"></i>
+                         {post.comments}
                     </div>
                     <div>
-                        <i className="fa fa-retweet"></i>
+                        <i className="bi bi-arrow-down-up pe-2"></i>
                         {post.retweets}
                     </div>
                     <div>
-                        <i className="fa fa-heart wd-color-red "></i>
+                        <i className="bi bi-heart wd-color-red pe-2"></i>
                         {post.likes}
                     </div>
                     <div>
-                        <i className="fa fa-upload"></i>
+                        <i className="bi bi-share pe-2"></i>
                     </div>
                 </div>
             </div>
